@@ -17,9 +17,7 @@
   <a href="https://app.crewai.com">Start Cloud Trial</a>
   ·
   <a href="https://blog.crewai.com">Blog</a>
-  ·
-  <a href="https://community.crewai.com">Forum</a>
-</p>
+  </p>
 
 <p align="center">
   <a href="https://github.com/crewAIInc/crewAI">
