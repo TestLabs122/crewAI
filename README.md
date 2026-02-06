@@ -21,7 +21,6 @@
 
 <p align="center">
   <a href="https://github.com/crewAIInc/crewAI">
-    <img src="https://img.shields.io/github/stars/crewAIInc/crewAI" alt="GitHub Repo stars">
   </a>
   <a href="https://github.com/crewAIInc/crewAI/network/members">
     <img src="https://img.shields.io/github/forks/crewAIInc/crewAI" alt="GitHub forks">
