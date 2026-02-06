@@ -10,7 +10,7 @@ dependencies = [
     { name = "sqlparse" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/django-2.2.0-py3-none-any.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/django-2.2.0-py3-none-any.whl", hash = "sha256:7c3543e4fb070d14e10926189a7fcf42ba919263b7473dceaefce34d54e8a119" },
 ]
 
 [[package]]
@@ -20,17 +20,21 @@ source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "werkzeug", version = "0.14.1" },
     { name = "jinja2", version = "2.10" },
+    { name = "click", version = "7.0" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/flask-0.12.2-py2.py3-none-any.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/flask-0.12.2-py2.py3-none-any.whl", hash = "sha256:49f44461237b69ecd901cc7ce66feea0319b9158743dd27a2899962ab214dac1" },
 ]
 
 [[package]]
 name = "requests"
 version = "2.6.0"
 source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "urllib3", version = "1.24.1" },
+]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/requests-2.6.0-py2.py3-none-any.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/requests-2.6.0-py2.py3-none-any.whl", hash = "sha256:6a1b267aa90cac58ac3a765d067950e7dbbf75b1da07e895d1f594193a40a38b" },
 ]
 
 [[package]]
@@ -38,7 +42,7 @@ name = "urllib3"
 version = "1.24.1"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/urllib3-1.24.1-py2.py3-none-any.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/urllib3-1.24.1-py2.py3-none-any.whl", hash = "sha256:61bf29cada3fc2fbefad4fdf059ea4bd1b4a86d2b6d15e1c7c0b582b9752fe39" },
 ]
 
 [[package]]
@@ -46,7 +50,7 @@ name = "pyyaml"
 version = "5.3.1"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/pyyaml-5.3.1-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/pyyaml-5.3.1-cp38-cp38-linux_x86_64.whl", hash = "sha256:74809a57b329d6cc0fdccee6318f44b9b8649961fa73144a98735b0aaf029f1f" },
 ]
 
 [[package]]
@@ -57,7 +61,7 @@ dependencies = [
     { name = "markupsafe", version = "1.0" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/jinja2-2.10-py2.py3-none-any.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/jinja2-2.10-py2.py3-none-any.whl", hash = "sha256:74c935a1b8bb9a3947c50a54766a969d4846290e1e788ea44c1392163723c3bd" },
 ]
 
 [[package]]
@@ -65,7 +69,7 @@ name = "werkzeug"
 version = "0.14.1"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/werkzeug-0.14.1-py2.py3-none-any.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/werkzeug-0.14.1-py2.py3-none-any.whl", hash = "sha256:c3fd7a7d41976d9f44db327260e263132466836cef6f91512889ed60ad26557c" },
 ]
 
 [[package]]
@@ -73,7 +77,7 @@ name = "pillow"
 version = "6.2.0"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/pillow-6.2.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/pillow-6.2.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:a1b79d1b7e0c5c3e3c2f1a2e4f1d5f1b5e8b4e1c5d5e6b7c8d9e0f1a2b3c4d5e6" },
 ]
 
 [[package]]
@@ -81,7 +85,7 @@ name = "cryptography"
 version = "2.3"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/cryptography-2.3-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/cryptography-2.3-cp38-cp38-linux_x86_64.whl", hash = "sha256:d5f197d5e6e5d0e4e7e3f5c5c5e5f5e5f5e5f5e5f5e5f5e5f5e5f5e5f5e5f5e5" },
 ]
 
 [[package]]
@@ -92,7 +96,7 @@ dependencies = [
     { name = "cryptography", version = "2.3" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/paramiko-2.4.0-py2.py3-none-any.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/paramiko-2.4.0-py2.py3-none-any.whl", hash = "sha256:3d2e3a1e0b0e5c5c5c5c5c5c5c5c5c5c5c5c5c5c5c5c5c5c5c5c5c5c5c5c5c5c" },
 ]
 
 [[package]]
@@ -100,7 +104,7 @@ name = "sqlalchemy"
 version = "1.3.0"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/sqlalchemy-1.3.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/sqlalchemy-1.3.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:afa61f45a9e3b0c4e7c6e4c4f4f4f4f4f4f4f4f4f4f4f4f4f4f4f4f4f4f4f4f4" },
 ]
 
 [[package]]
@@ -108,7 +112,7 @@ name = "lxml"
 version = "4.6.2"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/lxml-4.6.2-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/lxml-4.6.2-cp38-cp38-linux_x86_64.whl", hash = "sha256:a1f410fe5a6b3f3f4e6f6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e" },
 ]
 
 [[package]]
@@ -116,7 +120,7 @@ name = "numpy"
 version = "1.16.0"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/numpy-1.16.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/numpy-1.16.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:b1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
 ]
 
 [[package]]
@@ -127,7 +131,7 @@ dependencies = [
     { name = "numpy", version = "1.16.0" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/scipy-1.4.1-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/scipy-1.4.1-cp38-cp38-linux_x86_64.whl", hash = "sha256:c1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
 ]
 
 [[package]]
@@ -139,7 +143,7 @@ dependencies = [
     { name = "jinja2", version = "2.10" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ansible-2.7.0-py2.py3-none-any.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/ansible-2.7.0-py2.py3-none-any.whl", hash = "sha256:d1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
 ]
 
 [[package]]
@@ -147,7 +151,7 @@ name = "markupsafe"
 version = "1.0"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/markupsafe-1.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/markupsafe-1.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:e1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
 ]
 
 [[package]]
@@ -155,7 +159,7 @@ name = "pytz"
 version = "2020.1"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/pytz-2020.1-py2.py3-none-any.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/pytz-2020.1-py2.py3-none-any.whl", hash = "sha256:f1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
 ]
 
 [[package]]
@@ -163,7 +167,7 @@ name = "sqlparse"
 version = "0.3.0"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/sqlparse-0.3.0-py2.py3-none-any.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/sqlparse-0.3.0-py2.py3-none-any.whl", hash = "sha256:g1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
 ]
 
 [[package]]
@@ -171,7 +175,7 @@ name = "psutil"
 version = "5.6.6"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/psutil-5.6.6-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/psutil-5.6.6-cp38-cp38-linux_x86_64.whl", hash = "sha256:h1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
 ]
 
 [[package]]
@@ -179,5 +183,263 @@ name = "httplib2"
 version = "0.18.0"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/httplib2-0.18.0-py3-none-any.whl", hash = "sha256:example" },
+    { url = "https://files.pythonhosted.org/packages/httplib2-0.18.0-py3-none-any.whl", hash = "sha256:i1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "bleach"
+version = "3.1.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/bleach-3.1.0-py2.py3-none-any.whl", hash = "sha256:j1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "notebook"
+version = "5.7.8"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "tornado", version = "5.1.1" },
+    { name = "jinja2", version = "2.10" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/notebook-5.7.8-py2.py3-none-any.whl", hash = "sha256:k1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "twisted"
+version = "19.7.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/twisted-19.7.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:l1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "tornado"
+version = "5.1.1"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/tornado-5.1.1-cp38-cp38-linux_x86_64.whl", hash = "sha256:m1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "aiohttp"
+version = "3.6.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/aiohttp-3.6.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:n1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "redis"
+version = "3.3.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/redis-3.3.0-py2.py3-none-any.whl", hash = "sha256:o1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "pymongo"
+version = "3.9.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/pymongo-3.9.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:p1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "celery"
+version = "4.3.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "kombu", version = "4.6.5" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/celery-4.3.0-py2.py3-none-any.whl", hash = "sha256:q1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "kombu"
+version = "4.6.5"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/kombu-4.6.5-py2.py3-none-any.whl", hash = "sha256:r1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "pycryptodome"
+version = "3.6.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/pycryptodome-3.6.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:s1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "defusedxml"
+version = "0.6.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/defusedxml-0.6.0-py2.py3-none-any.whl", hash = "sha256:t1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "py"
+version = "1.8.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/py-1.8.0-py2.py3-none-any.whl", hash = "sha256:u1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "setuptools"
+version = "40.0.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/setuptools-40.0.0-py2.py3-none-any.whl", hash = "sha256:v1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "pip"
+version = "19.0.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/pip-19.0.0-py2.py3-none-any.whl", hash = "sha256:w1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "nltk"
+version = "3.4.5"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/nltk-3.4.5-py3-none-any.whl", hash = "sha256:x1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "tensorflow"
+version = "2.3.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy", version = "1.16.0" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/tensorflow-2.3.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:y1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "keras"
+version = "2.3.1"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/keras-2.3.1-py2.py3-none-any.whl", hash = "sha256:z1f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "opencv-python"
+version = "4.1.2.30"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy", version = "1.16.0" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/opencv_python-4.1.2.30-cp38-cp38-linux_x86_64.whl", hash = "sha256:a2f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "beautifulsoup4"
+version = "4.8.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/beautifulsoup4-4.8.0-py3-none-any.whl", hash = "sha256:b2f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "scrapy"
+version = "1.8.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "twisted", version = "19.7.0" },
+    { name = "lxml", version = "4.6.2" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/scrapy-1.8.0-py2.py3-none-any.whl", hash = "sha256:c2f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "selenium"
+version = "3.141.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "urllib3", version = "1.24.1" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/selenium-3.141.0-py2.py3-none-any.whl", hash = "sha256:d2f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "click"
+version = "7.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/click-7.0-py2.py3-none-any.whl", hash = "sha256:e2f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "pycrypto"
+version = "2.6.1"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/pycrypto-2.6.1-cp38-cp38-linux_x86_64.whl", hash = "sha256:f2f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "pytest"
+version = "5.3.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "py", version = "1.8.0" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/pytest-5.3.0-py3-none-any.whl", hash = "sha256:g2f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "coverage"
+version = "4.5.4"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/coverage-4.5.4-cp38-cp38-linux_x86_64.whl", hash = "sha256:h2f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "tox"
+version = "3.14.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/tox-3.14.0-py2.py3-none-any.whl", hash = "sha256:i2f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "black"
+version = "19.10b0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "click", version = "7.0" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/black-19.10b0-py36-none-any.whl", hash = "sha256:j2f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "flake8"
+version = "3.7.9"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/flake8-3.7.9-py2.py3-none-any.whl", hash = "sha256:k2f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
+]
+
+[[package]]
+name = "mypy"
+version = "0.750"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/mypy-0.750-py3-none-any.whl", hash = "sha256:l2f91e5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f" },
 ]
