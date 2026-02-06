@@ -1,0 +1,183 @@
+version = 1
+requires-python = ">=3.8"
+
+[[package]]
+name = "django"
+version = "2.2.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pytz" },
+    { name = "sqlparse" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/django-2.2.0-py3-none-any.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "flask"
+version = "0.12.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "werkzeug", version = "0.14.1" },
+    { name = "jinja2", version = "2.10" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/flask-0.12.2-py2.py3-none-any.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "requests"
+version = "2.6.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/requests-2.6.0-py2.py3-none-any.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "urllib3"
+version = "1.24.1"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/urllib3-1.24.1-py2.py3-none-any.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "pyyaml"
+version = "5.3.1"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/pyyaml-5.3.1-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "jinja2"
+version = "2.10"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "markupsafe", version = "1.0" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/jinja2-2.10-py2.py3-none-any.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "werkzeug"
+version = "0.14.1"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/werkzeug-0.14.1-py2.py3-none-any.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "pillow"
+version = "6.2.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/pillow-6.2.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "cryptography"
+version = "2.3"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/cryptography-2.3-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "paramiko"
+version = "2.4.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "cryptography", version = "2.3" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/paramiko-2.4.0-py2.py3-none-any.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "sqlalchemy"
+version = "1.3.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/sqlalchemy-1.3.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "lxml"
+version = "4.6.2"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/lxml-4.6.2-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "numpy"
+version = "1.16.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/numpy-1.16.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "scipy"
+version = "1.4.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy", version = "1.16.0" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/scipy-1.4.1-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "ansible"
+version = "2.7.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyyaml", version = "5.3.1" },
+    { name = "jinja2", version = "2.10" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ansible-2.7.0-py2.py3-none-any.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "markupsafe"
+version = "1.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/markupsafe-1.0-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "pytz"
+version = "2020.1"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/pytz-2020.1-py2.py3-none-any.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "sqlparse"
+version = "0.3.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/sqlparse-0.3.0-py2.py3-none-any.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "psutil"
+version = "5.6.6"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/psutil-5.6.6-cp38-cp38-linux_x86_64.whl", hash = "sha256:example" },
+]
+
+[[package]]
+name = "httplib2"
+version = "0.18.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/httplib2-0.18.0-py3-none-any.whl", hash = "sha256:example" },
+]
